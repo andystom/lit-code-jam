@@ -1,13 +1,12 @@
 @use 'base/mixins';
-
 :host {
-    display: inline-block;
     @include mixins.component-base();
+    display: inline-block;
     position: absolute;
     top: var(--mouse-y, 0);
     left: var(--mouse-x, 0);
 }
 
 button {    
-    background-color: var(--color, red);
+    background-color: var(--color, rgba(255,0,0,0));
 }

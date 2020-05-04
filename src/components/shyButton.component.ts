@@ -39,11 +39,10 @@ export class ShyButtonComponent extends LitElement {
                 // Setting the SCSS property
                 document.documentElement.style.setProperty('--mouse-x', newX + "px");
                 document.documentElement.style.setProperty('--mouse-y', newY + "px");
-                this.text = 'Or not';
 
-            } else {
-                this.text = "I'm Shy";
-            }
+                this.text = "I'm shy..."
+            } 
+
             document.documentElement.style.setProperty('--color', `rgba(255, 0, 0, ${Math.max(1-0.005*manhattanDistance, 0)})`);
 
             
