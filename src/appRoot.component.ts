@@ -30,6 +30,4 @@ export class AppRoot extends LitElement {
         `;
     }
 
-    // ------------------------------
-
 }
