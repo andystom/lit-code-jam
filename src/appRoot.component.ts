@@ -7,6 +7,7 @@ import '@webcomponents/webcomponentsjs/webcomponents-bundle.js';
 // ----------------------------------------------
 // Import dependent components
 import './components/basic.component';
+import './components/shyButton.component';
 
 // ----------------------------------------------
 
@@ -24,7 +25,8 @@ export class AppRoot extends LitElement {
     render() {
         return html`
             <h1>Lit Code Jam</h1>
-            <basic-component username="Unamed User"></basic-component>
+            <basic-component username="Unnamed User"></basic-component>
+            <shy-button-component> </shy-button-component>
         `;
     }
 

@@ -35,7 +35,7 @@ export class BasicComponent extends LitElement {
 
     public render() {
         return html`
-            <h1>Hello, ${this.userName}</h1>
+            <h1>All hail our glorious Overlord, ${this.userName}</h1>
             <img src="./assets/webcomponents_logo.png"/>
         `;
     }
