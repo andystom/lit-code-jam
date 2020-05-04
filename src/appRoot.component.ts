@@ -26,7 +26,7 @@ export class AppRoot extends LitElement {
         return html`
             <h1>Lit Code Jam</h1>
             <basic-component username="Unnamed User"></basic-component>
-            <shy-button-component> </shy-button-component>
+            <shy-button-component></shy-button-component>
         `;
     }
 

@@ -19,7 +19,12 @@ export class ShyButtonComponent extends LitElement {
 
     public render() {
         return html`
-            <button type="button"> Something </button>
+            <button 
+                onmouseover="this.style.backgroundColor = '#FFB6C1'"
+                onmouseleave="this.style.backgroundColor = null" 
+                type="button"> 
+                Something 
+            </button>
         `;
     }
 }
